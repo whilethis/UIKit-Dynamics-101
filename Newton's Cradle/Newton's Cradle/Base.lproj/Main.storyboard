@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A3017" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="BPXLViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="BPXLCradleView">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="A7x-ya-SfM">
+                                <rect key="frame" x="361" y="455" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Mcc-cy-qla" appends="YES" id="vhN-FD-WDn"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" id="y9W-vQ-PIw">
+                                <rect key="frame" x="462" y="455" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="mDh-2Q-Zrc" appends="YES" id="a59-T9-BqY"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" id="fWI-nR-UNs">
+                                <rect key="frame" x="563" y="455" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="uss-iN-72P" appends="YES" id="nJ1-4I-ot9"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" id="UzL-Vn-nOB">
+                                <rect key="frame" x="664" y="455" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="rN7-be-vId" appends="YES" id="kFx-Jq-88N"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" id="MQ9-tQ-sfs">
+                                <rect key="frame" x="260" y="455" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="DAt-Kb-Yi2" appends="YES" id="SXD-Th-BvI"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                        <connections>
+                            <outlet property="ballFive" destination="UzL-Vn-nOB" id="brs-bN-gQi"/>
+                            <outlet property="ballFour" destination="fWI-nR-UNs" id="LQQ-VT-OQa"/>
+                            <outlet property="ballOne" destination="MQ9-tQ-sfs" id="0Fw-QQ-FL8"/>
+                            <outlet property="ballThree" destination="y9W-vQ-PIw" id="tAd-qG-aoe"/>
+                            <outlet property="ballTwo" destination="A7x-ya-SfM" id="5vz-Uf-zdA"/>
+                        </connections>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="cradleView" destination="8bC-Xf-vdC" id="8Dv-Td-b7k"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Mcc-cy-qla">
+                    <connections>
+                        <action selector="panRecognized:" destination="BYZ-38-t0r" id="DtY-2F-IGP"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="mDh-2Q-Zrc">
+                    <connections>
+                        <action selector="panRecognized:" destination="BYZ-38-t0r" id="KBb-jC-GMd"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="uss-iN-72P">
+                    <connections>
+                        <action selector="panRecognized:" destination="BYZ-38-t0r" id="iI4-C6-bAF"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="DAt-Kb-Yi2">
+                    <connections>
+                        <action selector="panRecognized:" destination="BYZ-38-t0r" id="Nr6-cF-ZpA"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="rN7-be-vId">
+                    <connections>
+                        <action selector="panRecognized:" destination="BYZ-38-t0r" id="0jF-SA-EMq"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackOpaque"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

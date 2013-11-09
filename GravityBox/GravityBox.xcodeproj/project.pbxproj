@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CACDA455176A785C00F7C433 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACDA454176A785C00F7C433 /* Foundation.framework */; };
+		CACDA457176A785C00F7C433 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACDA456176A785C00F7C433 /* CoreGraphics.framework */; };
+		CACDA459176A785C00F7C433 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACDA458176A785C00F7C433 /* UIKit.framework */; };
+		CACDA45F176A785C00F7C433 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CACDA45D176A785C00F7C433 /* InfoPlist.strings */; };
+		CACDA461176A785C00F7C433 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CACDA460176A785C00F7C433 /* main.m */; };
+		CACDA465176A785C00F7C433 /* BPXLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CACDA464176A785C00F7C433 /* BPXLAppDelegate.m */; };
+		CACDA468176A785C00F7C433 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CACDA466176A785C00F7C433 /* Main.storyboard */; };
+		CACDA46B176A785C00F7C433 /* BPXLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CACDA46A176A785C00F7C433 /* BPXLViewController.m */; };
+		CACDA46D176A785C00F7C433 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CACDA46C176A785C00F7C433 /* Images.xcassets */; };
+		CACDA474176A785C00F7C433 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACDA473176A785C00F7C433 /* XCTest.framework */; };
+		CACDA475176A785C00F7C433 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACDA454176A785C00F7C433 /* Foundation.framework */; };
+		CACDA476176A785C00F7C433 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACDA458176A785C00F7C433 /* UIKit.framework */; };
+		CACDA47E176A785C00F7C433 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CACDA47C176A785C00F7C433 /* InfoPlist.strings */; };
+		CACDA480176A785C00F7C433 /* GravityBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CACDA47F176A785C00F7C433 /* GravityBoxTests.m */; };
+		CACDA48A176A7A4900F7C433 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACDA489176A7A4900F7C433 /* CoreMotion.framework */; };
+		CACDA48D176D2E3F00F7C433 /* BPXLGravityView.m in Sources */ = {isa = PBXBuildFile; fileRef = CACDA48C176D2E0800F7C433 /* BPXLGravityView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CACDA477176A785C00F7C433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CACDA449176A785C00F7C433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CACDA450176A785C00F7C433;
+			remoteInfo = GravityBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CACDA451176A785C00F7C433 /* GravityBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GravityBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CACDA454176A785C00F7C433 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CACDA456176A785C00F7C433 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CACDA458176A785C00F7C433 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CACDA45C176A785C00F7C433 /* GravityBox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GravityBox-Info.plist"; sourceTree = "<group>"; };
+		CACDA45E176A785C00F7C433 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CACDA460176A785C00F7C433 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CACDA462176A785C00F7C433 /* GravityBox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GravityBox-Prefix.pch"; sourceTree = "<group>"; };
+		CACDA463176A785C00F7C433 /* BPXLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPXLAppDelegate.h; sourceTree = "<group>"; };
+		CACDA464176A785C00F7C433 /* BPXLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPXLAppDelegate.m; sourceTree = "<group>"; };
+		CACDA467176A785C00F7C433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CACDA469176A785C00F7C433 /* BPXLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPXLViewController.h; sourceTree = "<group>"; };
+		CACDA46A176A785C00F7C433 /* BPXLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPXLViewController.m; sourceTree = "<group>"; };
+		CACDA46C176A785C00F7C433 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CACDA472176A785C00F7C433 /* GravityBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GravityBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CACDA473176A785C00F7C433 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CACDA47B176A785C00F7C433 /* GravityBoxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GravityBoxTests-Info.plist"; sourceTree = "<group>"; };
+		CACDA47D176A785C00F7C433 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CACDA47F176A785C00F7C433 /* GravityBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GravityBoxTests.m; sourceTree = "<group>"; };
+		CACDA489176A7A4900F7C433 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		CACDA48B176D2E0800F7C433 /* BPXLGravityView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPXLGravityView.h; sourceTree = "<group>"; };
+		CACDA48C176D2E0800F7C433 /* BPXLGravityView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPXLGravityView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CACDA44E176A785C00F7C433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACDA48A176A7A4900F7C433 /* CoreMotion.framework in Frameworks */,
+				CACDA457176A785C00F7C433 /* CoreGraphics.framework in Frameworks */,
+				CACDA459176A785C00F7C433 /* UIKit.framework in Frameworks */,
+				CACDA455176A785C00F7C433 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CACDA46F176A785C00F7C433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACDA474176A785C00F7C433 /* XCTest.framework in Frameworks */,
+				CACDA476176A785C00F7C433 /* UIKit.framework in Frameworks */,
+				CACDA475176A785C00F7C433 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CACDA448176A785C00F7C433 = {
+			isa = PBXGroup;
+			children = (
+				CACDA45A176A785C00F7C433 /* GravityBox */,
+				CACDA479176A785C00F7C433 /* GravityBoxTests */,
+				CACDA453176A785C00F7C433 /* Frameworks */,
+				CACDA452176A785C00F7C433 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CACDA452176A785C00F7C433 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CACDA451176A785C00F7C433 /* GravityBox.app */,
+				CACDA472176A785C00F7C433 /* GravityBoxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CACDA453176A785C00F7C433 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CACDA489176A7A4900F7C433 /* CoreMotion.framework */,
+				CACDA454176A785C00F7C433 /* Foundation.framework */,
+				CACDA456176A785C00F7C433 /* CoreGraphics.framework */,
+				CACDA458176A785C00F7C433 /* UIKit.framework */,
+				CACDA473176A785C00F7C433 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CACDA45A176A785C00F7C433 /* GravityBox */ = {
+			isa = PBXGroup;
+			children = (
+				CACDA463176A785C00F7C433 /* BPXLAppDelegate.h */,
+				CACDA464176A785C00F7C433 /* BPXLAppDelegate.m */,
+				CACDA466176A785C00F7C433 /* Main.storyboard */,
+				CACDA469176A785C00F7C433 /* BPXLViewController.h */,
+				CACDA46A176A785C00F7C433 /* BPXLViewController.m */,
+				CACDA46C176A785C00F7C433 /* Images.xcassets */,
+				CACDA45B176A785C00F7C433 /* Supporting Files */,
+				CACDA48B176D2E0800F7C433 /* BPXLGravityView.h */,
+				CACDA48C176D2E0800F7C433 /* BPXLGravityView.m */,
+			);
+			path = GravityBox;
+			sourceTree = "<group>";
+		};
+		CACDA45B176A785C00F7C433 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CACDA45C176A785C00F7C433 /* GravityBox-Info.plist */,
+				CACDA45D176A785C00F7C433 /* InfoPlist.strings */,
+				CACDA460176A785C00F7C433 /* main.m */,
+				CACDA462176A785C00F7C433 /* GravityBox-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CACDA479176A785C00F7C433 /* GravityBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				CACDA47F176A785C00F7C433 /* GravityBoxTests.m */,
+				CACDA47A176A785C00F7C433 /* Supporting Files */,
+			);
+			path = GravityBoxTests;
+			sourceTree = "<group>";
+		};
+		CACDA47A176A785C00F7C433 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CACDA47B176A785C00F7C433 /* GravityBoxTests-Info.plist */,
+				CACDA47C176A785C00F7C433 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CACDA450176A785C00F7C433 /* GravityBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CACDA483176A785C00F7C433 /* Build configuration list for PBXNativeTarget "GravityBox" */;
+			buildPhases = (
+				CACDA44D176A785C00F7C433 /* Sources */,
+				CACDA44E176A785C00F7C433 /* Frameworks */,
+				CACDA44F176A785C00F7C433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GravityBox;
+			productName = GravityBox;
+			productReference = CACDA451176A785C00F7C433 /* GravityBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CACDA471176A785C00F7C433 /* GravityBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CACDA486176A785C00F7C433 /* Build configuration list for PBXNativeTarget "GravityBoxTests" */;
+			buildPhases = (
+				CACDA46E176A785C00F7C433 /* Sources */,
+				CACDA46F176A785C00F7C433 /* Frameworks */,
+				CACDA470176A785C00F7C433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CACDA478176A785C00F7C433 /* PBXTargetDependency */,
+			);
+			name = GravityBoxTests;
+			productName = GravityBoxTests;
+			productReference = CACDA472176A785C00F7C433 /* GravityBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CACDA449176A785C00F7C433 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BPXL;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Black Pixel";
+				TargetAttributes = {
+					CACDA471176A785C00F7C433 = {
+						TestTargetID = CACDA450176A785C00F7C433;
+					};
+				};
+			};
+			buildConfigurationList = CACDA44C176A785C00F7C433 /* Build configuration list for PBXProject "GravityBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CACDA448176A785C00F7C433;
+			productRefGroup = CACDA452176A785C00F7C433 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CACDA450176A785C00F7C433 /* GravityBox */,
+				CACDA471176A785C00F7C433 /* GravityBoxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CACDA44F176A785C00F7C433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACDA46D176A785C00F7C433 /* Images.xcassets in Resources */,
+				CACDA45F176A785C00F7C433 /* InfoPlist.strings in Resources */,
+				CACDA468176A785C00F7C433 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CACDA470176A785C00F7C433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACDA47E176A785C00F7C433 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CACDA44D176A785C00F7C433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACDA465176A785C00F7C433 /* BPXLAppDelegate.m in Sources */,
+				CACDA461176A785C00F7C433 /* main.m in Sources */,
+				CACDA46B176A785C00F7C433 /* BPXLViewController.m in Sources */,
+				CACDA48D176D2E3F00F7C433 /* BPXLGravityView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CACDA46E176A785C00F7C433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACDA480176A785C00F7C433 /* GravityBoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CACDA478176A785C00F7C433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CACDA450176A785C00F7C433 /* GravityBox */;
+			targetProxy = CACDA477176A785C00F7C433 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CACDA45D176A785C00F7C433 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CACDA45E176A785C00F7C433 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CACDA466176A785C00F7C433 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CACDA467176A785C00F7C433 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CACDA47C176A785C00F7C433 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CACDA47D176A785C00F7C433 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CACDA481176A785C00F7C433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CACDA482176A785C00F7C433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CACDA484176A785C00F7C433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GravityBox/GravityBox-Prefix.pch";
+				INFOPLIST_FILE = "GravityBox/GravityBox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CACDA485176A785C00F7C433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GravityBox/GravityBox-Prefix.pch";
+				INFOPLIST_FILE = "GravityBox/GravityBox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CACDA487176A785C00F7C433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GravityBox.app/GravityBox";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GravityBox/GravityBox-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GravityBoxTests/GravityBoxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CACDA488176A785C00F7C433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GravityBox.app/GravityBox";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GravityBox/GravityBox-Prefix.pch";
+				INFOPLIST_FILE = "GravityBoxTests/GravityBoxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CACDA44C176A785C00F7C433 /* Build configuration list for PBXProject "GravityBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACDA481176A785C00F7C433 /* Debug */,
+				CACDA482176A785C00F7C433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CACDA483176A785C00F7C433 /* Build configuration list for PBXNativeTarget "GravityBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACDA484176A785C00F7C433 /* Debug */,
+				CACDA485176A785C00F7C433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CACDA486176A785C00F7C433 /* Build configuration list for PBXNativeTarget "GravityBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACDA487176A785C00F7C433 /* Debug */,
+				CACDA488176A785C00F7C433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CACDA449176A785C00F7C433 /* Project object */;
+}

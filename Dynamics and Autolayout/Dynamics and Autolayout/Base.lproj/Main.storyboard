@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="BPXLViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nmk-Gc-sAy"/>
+                        <viewControllerLayoutGuide type="bottom" id="JUT-Sa-dAi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pUR-3j-EWI">
+                                <rect key="frame" x="135" y="259" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.91372549020000005" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Vzh-QZ-jxh"/>
+                                    <constraint firstAttribute="width" constant="50" id="pTu-s9-Hua"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Bik-iL-zvZ" appends="YES" id="d3A-Ya-JNw"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nvw-Cu-7Fv">
+                                <rect key="frame" x="229" y="259" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="iJX-NZ-VcJ"/>
+                                    <constraint firstAttribute="width" constant="50" id="vAA-62-QZv"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0oO-W7-PD1">
+                                <rect key="frame" x="41" y="259" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Nq3-Ut-mVf"/>
+                                    <constraint firstAttribute="width" constant="50" id="jOy-5v-FIO"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="rXX-Wc-jFE" appends="YES" id="sqi-3l-fJh"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0oO-W7-PD1" firstAttribute="centerY" secondItem="pUR-3j-EWI" secondAttribute="centerY" id="1bP-Sh-1Ij"/>
+                            <constraint firstItem="Nvw-Cu-7Fv" firstAttribute="centerY" secondItem="pUR-3j-EWI" secondAttribute="centerY" id="2ie-hE-Fjh"/>
+                            <constraint firstItem="pUR-3j-EWI" firstAttribute="leading" secondItem="0oO-W7-PD1" secondAttribute="trailing" constant="44" id="7br-Nu-PC2"/>
+                            <constraint firstAttribute="centerX" secondItem="pUR-3j-EWI" secondAttribute="centerX" id="GSU-T0-aPD"/>
+                            <constraint firstItem="pUR-3j-EWI" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="259" id="rCE-qE-GTZ"/>
+                            <constraint firstItem="Nvw-Cu-7Fv" firstAttribute="leading" secondItem="pUR-3j-EWI" secondAttribute="trailing" constant="44" id="y0t-jA-Xwv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="centerView" destination="pUR-3j-EWI" id="loF-YS-1YC"/>
+                        <outlet property="topConstraint" destination="rCE-qE-GTZ" id="srV-vJ-zBq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Bik-iL-zvZ" userLabel="Center Tap Recognizer">
+                    <connections>
+                        <action selector="centerViewTapped:" destination="vXZ-lx-hvc" id="jkh-k4-7Hx"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="rXX-Wc-jFE" userLabel="Left Tap Recognizer">
+                    <connections>
+                        <action selector="leftViewTapped:" destination="vXZ-lx-hvc" id="XD7-qX-Jc8"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
