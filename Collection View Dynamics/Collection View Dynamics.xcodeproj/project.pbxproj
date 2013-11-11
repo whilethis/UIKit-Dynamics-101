@@ -120,10 +120,10 @@
 				CA62F337180C89120038C7BE /* Main.storyboard */,
 				CA62F33A180C89120038C7BE /* BPXLViewController.h */,
 				CA62F33B180C89120038C7BE /* BPXLViewController.m */,
-				CA62F33D180C89120038C7BE /* Images.xcassets */,
-				CA62F32C180C89120038C7BE /* Supporting Files */,
 				CA62F35A180C89920038C7BE /* BPXLFlowLayout.h */,
 				CA62F35B180C89920038C7BE /* BPXLFlowLayout.m */,
+				CA62F33D180C89120038C7BE /* Images.xcassets */,
+				CA62F32C180C89120038C7BE /* Supporting Files */,
 			);
 			path = "Collection View Dynamics";
 			sourceTree = "<group>";
@@ -467,6 +467,7 @@
 				CA62F356180C89120038C7BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA62F357180C89120038C7BE /* Build configuration list for PBXNativeTarget "Collection View DynamicsTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +476,7 @@
 				CA62F359180C89120038C7BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

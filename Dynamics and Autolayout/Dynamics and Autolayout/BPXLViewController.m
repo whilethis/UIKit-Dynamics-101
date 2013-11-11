@@ -20,6 +20,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+//    [self.view removeConstraints:self.view.constraints];
 }
 
 - (void)didReceiveMemoryWarning
@@ -30,8 +31,8 @@
 - (IBAction)centerViewTapped:(id)sender {
     [self addGravity];
     
-    [self spoiler1];
-    [self spoiler2];
+//    [self spoiler1];
+//    [self spoiler2];
 }
 
 - (void) addGravity {
@@ -49,7 +50,7 @@
     UIDynamicItemBehavior *itemBehavior = [[UIDynamicItemBehavior alloc] initWithItems:@[self.centerView]];
     itemBehavior.elasticity = 1.0;
     itemBehavior.friction = 0.0;
-    [itemBehavior addAngularVelocity:M_PI_2 forItem:self.centerView];
+    [itemBehavior addAngularVelocity:M_PI_4 forItem:self.centerView];
     [self.animator addBehavior:itemBehavior];
 }
 

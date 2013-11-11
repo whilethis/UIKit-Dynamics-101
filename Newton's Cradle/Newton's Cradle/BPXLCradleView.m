@@ -3,7 +3,7 @@
 //  Newton's Cradle
 //
 //  Created by Brandon Alexander on 11/5/13.
-//  Copyright (c) 2013 Black PIxel. All rights reserved.
+//  Copyright (c) 2013 Black Pixel. All rights reserved.
 //
 
 #import "BPXLCradleView.h"
@@ -16,8 +16,7 @@
 
 @implementation BPXLCradleView
 
-- (id)initWithFrame:(CGRect)frame
-{
+- (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
@@ -42,10 +41,7 @@
 }
 
 
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
-{
+- (void)drawRect:(CGRect)rect {
     for(NSNumber *tag in self.anchorPoints) {
         UIView *boxView = [self viewWithTag:tag.integerValue];
         CGPoint anchorPoint = [self.anchorPoints[tag] CGPointValue];

@@ -124,10 +124,10 @@
 				CACDA466176A785C00F7C433 /* Main.storyboard */,
 				CACDA469176A785C00F7C433 /* BPXLViewController.h */,
 				CACDA46A176A785C00F7C433 /* BPXLViewController.m */,
-				CACDA46C176A785C00F7C433 /* Images.xcassets */,
-				CACDA45B176A785C00F7C433 /* Supporting Files */,
 				CACDA48B176D2E0800F7C433 /* BPXLGravityView.h */,
 				CACDA48C176D2E0800F7C433 /* BPXLGravityView.m */,
+				CACDA46C176A785C00F7C433 /* Images.xcassets */,
+				CACDA45B176A785C00F7C433 /* Supporting Files */,
 			);
 			path = GravityBox;
 			sourceTree = "<group>";
@@ -465,6 +465,7 @@
 				CACDA485176A785C00F7C433 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CACDA486176A785C00F7C433 /* Build configuration list for PBXNativeTarget "GravityBoxTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +474,7 @@
 				CACDA488176A785C00F7C433 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

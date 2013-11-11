@@ -66,12 +66,12 @@
     
     CGPoint touchLocation = [self.collectionView.panGestureRecognizer locationInView:self.collectionView];
     
-    [self.animator.behaviors enumerateObjectsUsingBlock:^(UIAttachmentBehavior *springBehaviour, NSUInteger idx, BOOL *stop) {
-        CGFloat yDistanceFromTouch = fabsf(touchLocation.y - springBehaviour.anchorPoint.y);
-        CGFloat xDistanceFromTouch = fabsf(touchLocation.x - springBehaviour.anchorPoint.x);
-        CGFloat scrollResistance = (yDistanceFromTouch + xDistanceFromTouch) / 1500.0f;
+    [self.animator.behaviors enumerateObjectsUsingBlock:^(UIAttachmentBehavior *springBehavior, NSUInteger idx, BOOL *stop) {
+        CGFloat yDistanceFromTouch = fabsf(touchLocation.y - springBehavior.anchorPoint.y);
+        CGFloat xDistanceFromTouch = fabsf(touchLocation.x - springBehavior.anchorPoint.x);
+        CGFloat scrollResistance = (yDistanceFromTouch + xDistanceFromTouch) / 2000.0f;
         
-        UICollectionViewLayoutAttributes *item = springBehaviour.items.firstObject;
+        UICollectionViewLayoutAttributes *item = springBehavior.items.firstObject;
         CGPoint center = item.center;
         if (delta < 0) {
             center.y += MAX(delta, delta*scrollResistance);

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA5330E6182CA3AD00DE16B4 /* BPXLPendulumBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5330E5182CA3AD00DE16B4 /* BPXLPendulumBehavior.m */; };
 		CAF1AE0F1829E0DC00AC6F54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF1AE0E1829E0DC00AC6F54 /* Foundation.framework */; };
 		CAF1AE111829E0DC00AC6F54 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF1AE101829E0DC00AC6F54 /* CoreGraphics.framework */; };
 		CAF1AE131829E0DC00AC6F54 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF1AE121829E0DC00AC6F54 /* UIKit.framework */; };
@@ -36,8 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CA5330E4182CA3AD00DE16B4 /* BPXLPendulumBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPXLPendulumBehavior.h; sourceTree = "<group>"; };
-		CA5330E5182CA3AD00DE16B4 /* BPXLPendulumBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPXLPendulumBehavior.m; sourceTree = "<group>"; };
 		CAF1AE0B1829E0DC00AC6F54 /* Newton's Cradle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Newton's Cradle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF1AE0E1829E0DC00AC6F54 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CAF1AE101829E0DC00AC6F54 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -123,12 +120,10 @@
 				CAF1AE201829E0DC00AC6F54 /* Main.storyboard */,
 				CAF1AE231829E0DC00AC6F54 /* BPXLViewController.h */,
 				CAF1AE241829E0DC00AC6F54 /* BPXLViewController.m */,
-				CAF1AE261829E0DC00AC6F54 /* Images.xcassets */,
-				CAF1AE151829E0DC00AC6F54 /* Supporting Files */,
 				CAF1AE431829E2D900AC6F54 /* BPXLCradleView.h */,
 				CAF1AE441829E2D900AC6F54 /* BPXLCradleView.m */,
-				CA5330E4182CA3AD00DE16B4 /* BPXLPendulumBehavior.h */,
-				CA5330E5182CA3AD00DE16B4 /* BPXLPendulumBehavior.m */,
+				CAF1AE261829E0DC00AC6F54 /* Images.xcassets */,
+				CAF1AE151829E0DC00AC6F54 /* Supporting Files */,
 			);
 			path = "Newton's Cradle";
 			sourceTree = "<group>";
@@ -208,7 +203,7 @@
 			attributes = {
 				CLASSPREFIX = BPXL;
 				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = "Black PIxel";
+				ORGANIZATIONNAME = "Black Pixel";
 				TargetAttributes = {
 					CAF1AE2B1829E0DC00AC6F54 = {
 						TestTargetID = CAF1AE0A1829E0DC00AC6F54;
@@ -262,7 +257,6 @@
 			files = (
 				CAF1AE1F1829E0DC00AC6F54 /* BPXLAppDelegate.m in Sources */,
 				CAF1AE1B1829E0DC00AC6F54 /* main.m in Sources */,
-				CA5330E6182CA3AD00DE16B4 /* BPXLPendulumBehavior.m in Sources */,
 				CAF1AE251829E0DC00AC6F54 /* BPXLViewController.m in Sources */,
 				CAF1AE451829E2D900AC6F54 /* BPXLCradleView.m in Sources */,
 			);
