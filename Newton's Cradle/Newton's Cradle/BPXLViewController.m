@@ -26,11 +26,11 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.cradleView.ballOne.frame = CGRectMake(260.0, 455.0, 100.0, 100.0);
-    self.cradleView.ballTwo.frame = CGRectMake(361.0, 455.0, 100.0, 100.0);
-    self.cradleView.ballThree.frame = CGRectMake(462.0, 455.0, 100.0, 100.0);
-    self.cradleView.ballFour.frame = CGRectMake(563.0, 455.0, 100.0, 100.0);
-    self.cradleView.ballFive.frame = CGRectMake(664.0, 455.0, 100.0, 100.0);
+    self.cradleView.ballOne.frame = CGRectMake(280.0, 456.0, 92.0, 92.0);
+    self.cradleView.ballTwo.frame = CGRectMake(373.0, 456.0, 92.0, 92.0);
+    self.cradleView.ballThree.frame = CGRectMake(466.0, 456.0, 92.0, 92.0);
+    self.cradleView.ballFour.frame = CGRectMake(559.0, 456.0, 92.0, 92.0);
+    self.cradleView.ballFive.frame = CGRectMake(652.0, 456.0, 92.0, 92.0);
     
     [self configureView:self.cradleView.ballOne];
     [self configureView:self.cradleView.ballTwo];

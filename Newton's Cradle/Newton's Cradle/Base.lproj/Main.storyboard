@@ -12,60 +12,50 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" id="A7x-ya-SfM">
-                                <rect key="frame" x="361" y="455" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <gestureRecognizers/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ballBlue" id="2vr-39-7vK">
+                                <rect key="frame" x="280" y="456" width="92" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="Mcc-cy-qla" appends="YES" id="vhN-FD-WDn"/>
+                                    <outletCollection property="gestureRecognizers" destination="Mcc-cy-qla" appends="YES" id="O1q-cF-wjV"/>
                                 </connections>
-                            </view>
-                            <view contentMode="scaleToFill" id="y9W-vQ-PIw">
-                                <rect key="frame" x="462" y="455" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
-                                <gestureRecognizers/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ballBlue" id="4wz-3y-H0t">
+                                <rect key="frame" x="652" y="456" width="92" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="mDh-2Q-Zrc" appends="YES" id="a59-T9-BqY"/>
+                                    <outletCollection property="gestureRecognizers" destination="rN7-be-vId" appends="YES" id="JsW-pF-KlT"/>
                                 </connections>
-                            </view>
-                            <view contentMode="scaleToFill" id="fWI-nR-UNs">
-                                <rect key="frame" x="563" y="455" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <gestureRecognizers/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ballGreen" id="zkv-ox-Unh">
+                                <rect key="frame" x="373" y="456" width="92" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="uss-iN-72P" appends="YES" id="nJ1-4I-ot9"/>
+                                    <outletCollection property="gestureRecognizers" destination="mDh-2Q-Zrc" appends="YES" id="z3g-Ce-vfY"/>
                                 </connections>
-                            </view>
-                            <view contentMode="scaleToFill" id="UzL-Vn-nOB">
-                                <rect key="frame" x="664" y="455" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <gestureRecognizers/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ballGreen" id="bSO-mf-CTc">
+                                <rect key="frame" x="559" y="456" width="92" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="rN7-be-vId" appends="YES" id="kFx-Jq-88N"/>
+                                    <outletCollection property="gestureRecognizers" destination="DAt-Kb-Yi2" appends="YES" id="ZaG-HS-kz9"/>
                                 </connections>
-                            </view>
-                            <view contentMode="scaleToFill" id="MQ9-tQ-sfs">
-                                <rect key="frame" x="260" y="455" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <gestureRecognizers/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ballRed" id="fHc-7g-Ur3">
+                                <rect key="frame" x="466" y="456" width="92" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="DAt-Kb-Yi2" appends="YES" id="SXD-Th-BvI"/>
+                                    <outletCollection property="gestureRecognizers" destination="uss-iN-72P" appends="YES" id="1j7-P6-3JO"/>
                                 </connections>
-                            </view>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                         <connections>
-                            <outlet property="ballFive" destination="UzL-Vn-nOB" id="brs-bN-gQi"/>
-                            <outlet property="ballFour" destination="fWI-nR-UNs" id="LQQ-VT-OQa"/>
-                            <outlet property="ballOne" destination="MQ9-tQ-sfs" id="0Fw-QQ-FL8"/>
-                            <outlet property="ballThree" destination="y9W-vQ-PIw" id="tAd-qG-aoe"/>
-                            <outlet property="ballTwo" destination="A7x-ya-SfM" id="5vz-Uf-zdA"/>
+                            <outlet property="ballFive" destination="4wz-3y-H0t" id="NkZ-dj-WZg"/>
+                            <outlet property="ballFour" destination="bSO-mf-CTc" id="7fL-Gc-KQc"/>
+                            <outlet property="ballOne" destination="2vr-39-7vK" id="Hq4-SR-sq6"/>
+                            <outlet property="ballThree" destination="fHc-7g-Ur3" id="sf4-7A-K6q"/>
+                            <outlet property="ballTwo" destination="zkv-ox-Unh" id="6c9-KI-16N"/>
                         </connections>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -102,6 +92,11 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="ballBlue" width="92" height="92"/>
+        <image name="ballGreen" width="92" height="92"/>
+        <image name="ballRed" width="92" height="92"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackOpaque"/>
         <simulatedOrientationMetrics key="orientation"/>
