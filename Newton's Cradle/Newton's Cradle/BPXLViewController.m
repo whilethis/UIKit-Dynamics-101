@@ -46,8 +46,17 @@
     attachOne.damping = 1.0;
     attachOne.frequency = 0.0;
     BPXLCradleView *cradleView = self.cradleView;
+    __weak UIAttachmentBehavior *weakAttachment = attachOne;
     attachOne.action = ^{
         [cradleView setNeedsDisplay];
+        CGPoint viewCenter = view.center;
+        //Hypoteneuse is length
+        CGFloat cosineValue = (viewCenter.x - ballCenter.x) / weakAttachment.length;
+        CGFloat angle = acosf(cosineValue);
+        
+        CGAffineTransform transform = view.transform;
+        transform = CGAffineTransformRotate(transform, angle - M_PI_2);
+        view.transform = transform;
     };
 
     [self.cradleView addAnchorPoint:ballCenter forView:view];
