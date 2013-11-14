@@ -6,6 +6,9 @@
 //  Copyright (c) 2013 Black Pixel. All rights reserved.
 //
 
+//Pieces of this class was taken from http://www.objc.io/issue-5/collection-views-and-uidynamics.html
+
+
 #import "BPXLFlowLayout.h"
 
 @interface BPXLFlowLayout ()
