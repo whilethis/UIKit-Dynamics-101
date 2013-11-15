@@ -115,7 +115,7 @@
 - (UIGravityBehavior *) gravity {
     if(!_gravity) {
         _gravity = [[UIGravityBehavior alloc] init];
-        
+        _gravity.magnitude = 3.0;
         [self.animator addBehavior:_gravity];
     }
     
