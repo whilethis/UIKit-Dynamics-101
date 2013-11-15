@@ -14,7 +14,7 @@ The center box is constrained to the center of the main view and the boxes to th
 
 Tapping on the center box adds a gravity behavior and attaches the center box to it (-spoiler1). 
 
--spoiler 2 adds a dynamic item behavior to see what can be done to make autolayout trigger a layout pass.
+-spoiler2 adds a dynamic item behavior to see what can be done to make autolayout trigger a layout pass.
 
 Tapping on the left box changes the top contraint for the middle box to be 50 points from the top.
 
