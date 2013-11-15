@@ -26,4 +26,4 @@ This project contains a single box that has an attachment behavior that you can 
 Tapping on the box turns gravity on.
 
 #Newton's Cradle
-This project simulates the classic desk toy, Newton's Cradle. Currently, it only supports one tap.
+This project simulates the classic desk toy, Newton's Cradle. Currently, it does not support multitouch.
