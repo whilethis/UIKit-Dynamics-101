@@ -2,13 +2,13 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Collection View Dynamics/Collection View Dynamics.xcodeproj">
+      location = "group:GravityBox/GravityBox.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Dynamics and Autolayout/Dynamics and Autolayout.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:GravityBox/GravityBox.xcodeproj">
+      location = "group:Collection View Dynamics/Collection View Dynamics.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Newton&apos;s Cradle/Newton&apos;s Cradle.xcodeproj">
