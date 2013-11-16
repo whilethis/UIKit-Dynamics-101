@@ -33,6 +33,7 @@
     
 //    [self spoiler1];
 //    [self spoiler2];
+//    [self fixAutoLayout];
 }
 
 - (void) addGravity {
@@ -50,7 +51,16 @@
     UIDynamicItemBehavior *itemBehavior = [[UIDynamicItemBehavior alloc] initWithItems:@[self.centerView]];
     itemBehavior.elasticity = 1.0;
     itemBehavior.friction = 0.0;
-    [itemBehavior addAngularVelocity:M_PI_4 forItem:self.centerView];
+//    [itemBehavior addAngularVelocity:M_PI_4 forItem:self.centerView];
+    [self.animator addBehavior:itemBehavior];
+}
+
+- (void) fixAutoLayout {
+    UIDynamicItemBehavior *itemBehavior = [[UIDynamicItemBehavior alloc] initWithItems:@[self.centerView]];
+    [itemBehavior setAction:^{
+        self.topConstraint.constant = self.centerView.center.y - (self.centerView.bounds.size.height * 0.5);
+        [self.view updateConstraintsIfNeeded];
+    }];
     [self.animator addBehavior:itemBehavior];
 }
 
