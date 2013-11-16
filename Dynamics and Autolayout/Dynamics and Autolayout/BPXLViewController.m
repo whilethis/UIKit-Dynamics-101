@@ -31,9 +31,9 @@
 - (IBAction)centerViewTapped:(id)sender {
     [self addGravity];
     
-    [self spoiler1];
-    [self spoiler2];
-    [self fixAutoLayout];
+//    [self spoiler1];
+//    [self spoiler2];
+//    [self fixAutoLayout];
 }
 
 - (void) addGravity {
